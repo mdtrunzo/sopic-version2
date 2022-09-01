@@ -1,0 +1,13 @@
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.kids-body{
+    display: flex;
+    justify-content: center;
+}
+.kids-body img {
+  width: 70%;
+}
