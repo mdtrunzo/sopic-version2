@@ -61,7 +61,6 @@ function Template({ item }) {
                   paperSize="auto"
                   margin={40}
                   fileName={`Plantilla`}
-                  author="KendoReact Team"
                 >
                   {item.id === 1 && (
                     <KidsUno

@@ -10,6 +10,18 @@
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
+@font-face {
+  font-family: 'ApexNewBold';
+  src: url(./fonts/ApexNewBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bacalisties';
+  src: url(./fonts/Bacalisties.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bollivia';
+  src: url(./fonts/BolliviaRosillaDemo.ttf) format('truetype');
+}
 * {
   padding: 0;
   margin: 0;
@@ -620,4 +632,8 @@ form img {
 
 .plantilla-single-show {
   height: 520px;
+}
+.k-pdf-export  {
+  border: 2px dashed transparent;
+  padding: 1px;
 }
