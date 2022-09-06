@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import LoopIcon from '@mui/icons-material/Loop'
+import { toast } from 'react-toastify'
 
-function Rotate({ id }) {
+function Rotate({ id, type }) {
   const [val, setVal] = useState('')
 
   const handleRotate = (id, val) => {
@@ -11,24 +13,40 @@ function Rotate({ id }) {
     el.style.transform = `rotate(${sumVal}deg)`
   }
 
+  const handleClick = () => {
+    toast('Toca la imagen que deseas rotar 🌅', {
+      autoClose: 1000,
+      style: {
+        fontSize: '14px',
+      },
+    })
+  }
+
   return (
-    <div>
-      <p>ROTAR</p>
-      {id ? (
-        <>
-          <input
-            type="range"
-            min={-180}
-            max={180}
-            defaultValue={0}
-            onChange={(e) => handleRotate(id, e.target.value)}
-          />
-          <p>{val ? val : '0'}</p>
-        </>
-      ) : (
-        <p>Selecciona un imagen para rotar</p>
-      )}
-    </div>
+    <>
+      <div className="iconos-menu" onClick={handleClick}>
+        <LoopIcon />
+        <li>ROTAR IMAGEN</li>
+      </div>
+      <div className="subpanel">
+        {id && type && (
+          <>
+            <input
+              type="range"
+              min={-180}
+              max={180}
+              defaultValue={0}
+              onChange={(e) => handleRotate(id, e.target.value)}
+            />
+            <div className="rotate-panel">
+              <p className='left'>IZQUIERDA</p>
+              <p style={{ padding: '5px 0' }}>{val ? `${val}°` : '0°'}</p>
+              <p className='left'>DERECHA</p>
+            </div>
+          </>
+        )}
+      </div>
+    </>
   )
 }
 

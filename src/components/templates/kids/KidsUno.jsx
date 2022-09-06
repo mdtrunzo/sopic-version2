@@ -10,38 +10,39 @@ import '../styles/KidsUno.css'
 // import ScaleIcon from '@mui/icons-material/Scale'
 
 function KidsUno({ handleId, item, showError, showErrorLess, showSuccess }) {
-  //   const icons = [
-  //     <FavoriteIcon />,
-  //     <CalendarMonthIcon />,
-  //     <AccessAlarmIcon />,
-  //     <StraightenIcon />,
-  //     <ScaleIcon />,
-  //   ]
+  // const icons = [
+  //   <FavoriteIcon />,
+  //   <CalendarMonthIcon />,
+  //   <AccessAlarmIcon />,
+  //   <StraightenIcon />,
+  //   <ScaleIcon />,
+  // ]
   const [img, setImg] = useState(IMG)
+
   return (
-    <div className="kids">
+    <div className="kids kids-uno">
       <div className="kids-header">
         <h3
           id="1"
-          style={{ fontSize: '22px' }}
+          style={{ fontSize: '16px' }}
           onClick={(e) => handleId(e.target.id)}
         >
           <EditText
             defaultValue={item.subtitle}
             id="1"
-            style={{ fontSize: '22px' }}
+            style={{ fontSize: '16px' }}
           />
         </h3>
 
         <h1
           id="2"
-          style={{ fontSize: '30px' }}
+          style={{ fontSize: '70px' }}
           onClick={(e) => handleId(e.target.id)}
         >
           <EditText
             defaultValue={item.title}
             id="2"
-            style={{ fontSize: '30px' }}
+            style={{ fontSize: '70px' }}
           />
         </h1>
       </div>
@@ -54,7 +55,9 @@ function KidsUno({ handleId, item, showError, showErrorLess, showSuccess }) {
             }}
             type="img"
             id="3"
-            onClick={(e) => handleId(e.target.id)}
+            onClick={(e) =>
+              handleId(e.target.id, e.target.style.backgroundImage)
+            }
           >
             <input
               type="file"

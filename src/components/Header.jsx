@@ -3,11 +3,18 @@ import ExitToAppIcon from '@mui/icons-material/ExitToApp'
 import SaveIcon from '@mui/icons-material/Save'
 import ReplayIcon from '@mui/icons-material/Replay'
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag'
-import ZoomBar from './ZoomBar'
+import { Avatar } from '@mui/material'
+import LoginModal from './LoginModal'
+import { useState } from 'react'
 // import Flip from 'react-reveal/Flip'
-// import Avatar from './AvatarImage';
 
-function Header({ login }) {
+function Header() {
+  const [modal, setModal] = useState(null)
+
+  const handleLogin = () => {
+    setModal(!modal)
+  }
+
   return (
     <div className="header-container">
       <div className="header">
@@ -19,7 +26,7 @@ function Header({ login }) {
                 <li>SALIR</li>
               </div>
             </a>
-            <div className="iconos-menu" onClick={login}>
+            <div className="iconos-menu" onClick={handleLogin}>
               <SaveIcon />
               <li>GUARDAR</li>
             </div>
@@ -36,7 +43,7 @@ function Header({ login }) {
               <ReplayIcon />
               <li>DESHACER</li>
             </div>
-            <a href="https://testing.ribaslegales.com.ar/index.php/carrito/">
+            <a href="https//google.com">
               <div className="iconos-menu">
                 <ShoppingBagIcon />
                 <li>TERMINAR</li>
@@ -44,9 +51,13 @@ function Header({ login }) {
             </a>
           </ul>
         </nav>
-        {/* <Avatar /> */}
+        <div className="avatar" onClick={handleLogin}>
+          <Avatar />
+          <p>Iniciar Sesión</p>
+        </div>
       </div>
-      <ZoomBar />
+
+      {modal && <LoginModal />}
     </div>
   )
 }

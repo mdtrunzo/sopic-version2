@@ -9,6 +9,7 @@
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.3",
     "@progress/kendo-react-pdf": "^5.5.0",
+    "@pronestor/react-zoom-pan-pinch": "^2.3.0",
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

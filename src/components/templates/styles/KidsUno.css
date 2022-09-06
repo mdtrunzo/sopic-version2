@@ -1,13 +1,53 @@
+@font-face {
+  font-family: 'ApexNewBold';
+  src: local('ApexNewBold'),
+    url(../../../fonts/ApexNewBold.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Bacalisties';
+  src: local('Bacalisties'),
+    url(../../../fonts/Bacalisties.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Bollivia';
+  src: local('Bollivia'),
+    url(../../../fonts/BolliviaRosillaDemo.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
 .kids {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
 }
-.kids-body{
-    display: flex;
-    justify-content: center;
+.kids-body {
+  display: flex;
+  justify-content: center;
 }
-.kids-body img {
-  width: 70%;
+
+.kids-uno h3,
+.kids-uno p {
+  font-family: 'ApexNewBold', 'sans-serif';
+  color: #a48b7c;
+}
+.kids-uno h1 {
+  font-family: 'Bacalisties', 'serif';
+  color: #a48b7c;
+}
+.kids-uno .header-img {
+  height: 350px;
+}
+.kids-uno h1 input[type='text'] {
+  text-align: center;
+  font-family: 'Bacalisties', 'serif';
+}
+.kids-uno h3 input[type='text'],
+.kids-uno p input[type='text'] {
+  text-align: center;
+  font-family: 'ApexNewBold', 'sans-serif';
 }
