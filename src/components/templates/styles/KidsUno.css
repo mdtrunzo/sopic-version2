@@ -23,22 +23,32 @@
 
 .kids-uno h3,
 .kids-uno p {
-  font-family: 'ApexNewBold', 'sans-serif';
+  font-family: 'ApexNewBold', 'sans-serif' !important;
   color: #a48b7c;
 }
 .kids-uno h1 {
-  font-family: 'Bacalisties', 'serif';
+  font-family: 'Bacalisties', 'serif' !important;
   color: #a48b7c;
 }
 .kids-uno .header-img {
-  height: 350px;
+  height: 350px !important;
 }
 .kids-uno h1 input[type='text'] {
   text-align: center;
-  font-family: 'Bacalisties', 'serif';
+  font-family: 'Bacalisties', 'serif' !important;
 }
 .kids-uno h3 input[type='text'],
 .kids-uno p input[type='text'] {
   text-align: center;
   font-family: 'ApexNewBold', 'sans-serif';
+}
+.kids-uno .kids-footer svg{
+  color:#a48b7c;
+  font-size: 20px;
+}
+.kids-uno .kids-footer input[type='text']:first-child, .kids-uno .kids-footer input[type='text']:nth-child(2){
+  width: 70px !important;
+}
+.kids-uno .kids-footer input[type='text']{
+width: 40px !important;
 }

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url(../../../../fonts/BodoniBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Century';
+  src: url(../../../../fonts/GOTHIC.TTF) format('truetype');
+}
+.memorias-seven .kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.memorias-seven .kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.memorias-seven .ext p {
+  font-family: 'Bell', 'sans-serif';
+}
+.memorias-seven h3 {
+  font-family: 'Century', 'sans-serif';
+}
+.memorias-seven h1 {
+  font-family: 'Bodoni', 'sans-serif';
+}
+.memorias-seven .ext svg {
+  color: black;
+  font-size: 42px;
+}
+.memorias-seven .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.memorias-seven .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.memorias-seven h3 input[type='text'] {
+  font-family: 'Century', 'sans-serif';
+  width: 100px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.memorias-seven h1 input[type='text'] {
+  font-family: 'Bodoni', 'sans-serif';
+  width: 100px;
+  text-align: center;
+}
+.memorias-seven label {
+  color: white;
+}
+.memorias-seven .one > div:hover label {
+  display: block !important;
+}

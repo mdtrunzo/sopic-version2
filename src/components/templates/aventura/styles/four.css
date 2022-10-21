@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url(../../../../fonts/Barlow-Light.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Apex';
+    src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+  }
+  .kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .kids-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .aventura-four .ext p {
+    font-family: 'Bell', 'sans-serif';
+  }
+  .aventura-four h3 {
+    font-family: 'Apex', 'sans-serif';
+  }
+  .aventura-four h4 {
+    font-family: 'Barlow', 'sans-serif';
+  }
+  .aventura-four .ext svg {
+    color: black;
+    font-size: 42px;
+  }
+  .aventura-four .ext svg:nth-child(3) {
+    font-size: 60px !important;
+  }
+  .aventura-four .header-img {
+    height: 33% !important;
+    height: 7rem;
+  }
+  .aventura-four h1 input[type='text'] {
+    text-align: center;
+    font-family: 'Bacalisties', 'serif';
+  }
+  .aventura-four h3 input[type='text'] {
+      font-family: 'Apex', 'sans-serif';
+  }
+  
+  .aventura-four label {
+    color: white;
+  }
+  .aventura-four .one > div:hover label {
+    display: block !important;
+  }
+.aventura-four h2{
+  width: 120px;
+}

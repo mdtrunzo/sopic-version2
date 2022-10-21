@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Bolivia';
+    src: url(../../../../fonts/BolliviaRosillaDemo.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Apex';
+    src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+  }
+  .memorias-one .kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .memorias-one .kids-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .memorias-one .ext p {
+    font-family: 'Bell', 'sans-serif';
+  }
+  .memorias-one h3 {
+    font-family: 'Apex', 'sans-serif';
+  }
+  .memorias-one h2 {
+    font-family: 'Bolivia', 'sans-serif';
+  }
+  .memorias-one .ext svg {
+    color: black;
+    font-size: 42px;
+  }
+  .memorias-one .ext svg:nth-child(3) {
+    font-size: 60px !important;
+  }
+  .memorias-one .header-img {
+    height: 33% !important;
+    height: 7rem;
+  }
+  .memorias-one h3 input[type='text'] {
+      font-family: 'Apex', 'sans-serif';
+      text-align: center;
+      width: 150px;
+  }
+  .memorias-one h2 input[type='text'] {
+    font-family: 'Bolivia', 'sans-serif';
+    text-align: center;
+    width: 100px;
+}
+.memorias-one label {
+    color: white;
+  }
+  .memorias-one .one > div:hover label {
+    display: block !important;
+  }
+  

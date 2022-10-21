@@ -1,31 +1,47 @@
-import { useState, useEffect } from 'react'
-// import { useSelector, useDispatch } from 'react-redux'
-import { useSelector } from 'react-redux'
-// import { getPlantillas } from '../features/plantillas/plantillasSlice'
+import { useEffect, useState } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import {
+  getPlantillas,
+} from '../features/plantillas/plantillasSlice'
 import { toast } from 'react-toastify'
 import Template from './Template'
+import Spinner from './Spinner'
 
 function Page() {
-  const { plantillas } = useSelector((state) => state.plantilla)
-  const [plantilla, setPlantilla] = useState([])
+  const { plantillas, isLoading, isError, message } = useSelector(
+    (state) => state.plantilla
+  )
+  const [arr, setArr] = useState([])
 
-  let plantillaId = 1
+  const dispatch = useDispatch()
 
   useEffect(() => {
-    plantillas?.map((item) =>
-      item.id === plantillaId
-        ? setPlantilla(plantillas)
-        : toast.error('Plantilla no encontrada', {
-            autoClose: 1000,
-          })
-    )
-  }, [plantillas, plantillaId])
+    if (isError) {
+      toast.error(message)
+    }
+    dispatch(getPlantillas())
+
+    let plantillaId = 1
+
+    if (plantillas) {
+      plantillas?.find((element) => {
+        if (element.id === plantillaId) {
+          return setArr(element)
+        }
+        return false
+      })
+    }
+
+    // eslint-disable-next-line
+  }, [isError, message, getPlantillas, dispatch])
+
+  if (isLoading) {
+    return <Spinner />
+  }
 
   return (
     <div>
-      {plantilla?.map((item) => (
-        <Template item={item} key={item.id} />
-      ))}
+      <Template arr={arr} key={arr.id} />
     </div>
   )
 }

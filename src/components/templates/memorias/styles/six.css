@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Bacalisties';
+    src: url(../../../../fonts/Bacalisties.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Apex';
+    src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+  }
+  .memorias-six .kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .memorias-six .kids-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .memorias-six .ext p {
+    font-family: 'Bell', 'sans-serif';
+  }
+  .memorias-six h3 {
+    font-family: 'Apex', 'sans-serif';
+  }
+  .memorias-six h1 {
+    font-family: 'Bacalisties', 'sans-serif';
+  }
+  .memorias-six .ext svg {
+    color: black;
+    font-size: 42px;
+  }
+  .memorias-six .ext svg:nth-child(3) {
+    font-size: 60px !important;
+  }
+  .memorias-six .header-img {
+    height: 33% !important;
+    height: 7rem;
+  }
+  .memorias-six h3 input[type='text'] {
+    font-family: 'Apex', 'sans-serif';
+    text-align: center;
+    width: 300px;
+  }
+  .memorias-six h1 input[type='text'] {
+    font-family: 'Bacalisties', 'sans-serif';
+    width: 300px;
+  }
+  .memorias-six label {
+    color: white;
+  }
+  .memorias-six .one > div:hover label {
+    display: block !important;
+  }
+  

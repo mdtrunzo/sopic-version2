@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Bacalisties';
+    src: url(../../../../fonts/Bacalisties.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Bodoni';
+    src: url(../../../../fonts/BodoniBold.ttf) format('truetype');
+  }
+
+.black-heart svg{
+    color: black;
+    font-size: 30px;
+}
+.white-heart svg{
+    color: white;
+    font-size: 30px;
+}
+.memorias-three h3{
+    font-family: 'Bacalisties', 'sans-serif';
+}
+.memorias-three h2{
+    font-family: 'Bodoni', 'sans-serif';
+}
+.memorias-three h2 input[type='text'] {
+    font-family: 'Bodoni', 'sans-serif';
+    text-align: center;
+    width: 50px;
+}
+.memorias-three h3 input[type='text'] {
+    font-family: 'Bacalisties', 'sans-serif';
+    text-align: center;
+    width: 70px;
+}
+.memorias-three .one > div:hover label {
+    display: block !important;
+    color:white;
+  }
+  

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ApexBold';
+  src: url(../../../fonts/ApexNewBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bacalisties';
+  src: url(../../../fonts/Bacalisties.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bollivia';
+  src: url(../../../fonts/BolliviaRosillaDemo.ttf) format('truetype');
+}
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.kids-body {
+  display: flex;
+  justify-content: center;
+}
+
+.kids-five h3,
+.kids-five p {
+  font-family: 'Apex', 'sans-serif';
+  color: #9e9e9e;
+}
+.kids-five h4 {
+  font-family: 'ApexBold', 'sans-serif';
+  color: #9e9e9e;
+}
+svg {
+  color: #9e9e9e;
+}
+.ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.kids-five .header-img {
+  height: 380px;
+}
+.kids-five h1 input[type='text'] {
+  text-align: center;
+  font-family: 'Bacalisties', 'serif';
+}
+.kids-five h3 input[type='text'],
+.kids-five p input[type='text'] {
+  text-align: center;
+  font-family: 'Apex', 'sans-serif';
+}
+.kids-five h4 input[type='text'] {
+  font-family: 'ApexBold', 'sans-serif';
+  text-align: center;
+}

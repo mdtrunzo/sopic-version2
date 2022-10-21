@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bacalisties';
+  src: url(../../../../fonts/Bacalisties.ttf) format('truetype');
+}
+.memorias-ten .kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.memorias-ten .kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.memorias-ten .ext p {
+  font-family: 'Bell', 'sans-serif';
+}
+.memorias-ten h2 {
+  font-family: 'Apex', 'sans-serif';
+}
+.memorias-ten h3 {
+  font-family: 'Bacalisties', 'sans-serif';
+}
+.memorias-ten .ext svg {
+  color: black;
+  font-size: 42px;
+}
+.memorias-ten .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.memorias-ten .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.memorias-ten h3 input[type='text'] {
+  font-family: 'Bacalisties', 'sans-serif';
+  text-align: center;
+  width: 150px;
+}
+.memorias-ten h2 input[type='text'] {
+  font-family: 'Apex', 'sans-serif';
+  text-align: left;
+}
+.memorias-ten label {
+  color: white;
+}
+.memorias-ten .one > div:hover label {
+  display: block !important;
+}

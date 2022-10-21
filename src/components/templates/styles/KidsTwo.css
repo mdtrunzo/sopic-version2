@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'ApexNewBold';
+  src: url(../../../fonts/ApexNewBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bacalisties';
+  src: url(../../../fonts/Bacalisties.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bollivia';
+  src: url(../../../fonts/BolliviaRosillaDemo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BellMTRegular';
+  src: url(../../../fonts/BELL.TTF) format('truetype');
+}
+@font-face {
+  font-family: 'BellMTBold';
+  src: url(../../../fonts/BELLB.TTF) format('truetype');
+}
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.kids-body {
+  display: flex;
+  justify-content: center;
+}
+
+.kids-two h3 {
+  font-family: 'ApexNewBold', 'sans-serif';
+  color: #527f89;
+}
+.kids-two h1,
+.kids-two h2,
+.kids-two p {
+  font-family: 'BellMTBold', 'serif';
+  color: #527f89;
+}
+.kids-two h4 {
+  color: #527f89;
+}
+.kids-two .header-img {
+  height: 380px;
+}
+.kids-two h1 input[type='text'] {
+  text-align: center;
+  font-family: 'BellMTBold', 'serif';
+}
+.kids-two h2 input[type='text'] {
+  text-align: center;
+}
+.kids-two h3 input[type='text'],
+.kids-two p input[type='text'] {
+  text-align: center;
+  font-family: 'ApexNewBold', 'sans-serif';
+}
+
+._4GdcU{
+  min-height: 0;
+}

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Alegreya';
+  src: url(../../../fonts/Alegreya-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Appex';
+  src: url(../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.kids-body {
+  display: flex;
+}
+
+.kids-four h3 {
+  font-family: 'Alegreya', 'sans-serif';
+  color: black;
+}
+.kids-four h3 input[type='text'] {
+  font-family: 'Alegreya', 'sans-serif';
+}
+.kids-four h1,
+.kids-four h2,
+.kids-four h4 {
+  font-family: 'BellMTRegular', 'serif';
+  color: black;
+}
+.kids-four p {
+  font-family: 'Appex', 'sans-serif';
+  color: black;
+}
+.kids-four .header-img {
+  height: 380px;
+}
+.kids-four h1 input[type='text'] {
+  font-family: 'BellMTRegular', 'serif';
+}
+.kids-four p input[type='text'] {
+  font-family: 'Appex', 'sans-serif';
+}
+._4GdcU {
+  min-height: 0;
+}
+._i5--j {
+  height: 100% !important;
+}
+p textarea {
+  height: 100% !important;
+}

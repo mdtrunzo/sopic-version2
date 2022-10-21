@@ -6,7 +6,7 @@ function UserPanel() {
     <div>
       <HeaderUser />
       <div className="container-plantillas">
-        <h2>Mis Plantillas</h2>
+        <h2 className="text-4xl mb-2 text-bold">Mis Plantillas</h2>
         <div className="container-plantillas-list">
           <PlantillasList />
         </div>

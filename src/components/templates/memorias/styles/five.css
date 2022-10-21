@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url(../../../../fonts/BodoniBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+.memorias-five .kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.memorias-five .kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.memorias-five .ext p {
+  font-family: 'Bell', 'sans-serif';
+}
+.memorias-five h3 {
+  font-family: 'Apex', 'sans-serif';
+}
+.memorias-five h2 {
+  font-family: 'Bodoni', 'sans-serif';
+}
+.memorias-five .ext svg {
+  color: black;
+  font-size: 42px;
+}
+.memorias-five .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.memorias-five .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.memorias-five h3 input[type='text'] {
+  font-family: 'Apex', 'sans-serif';
+  text-align: left;
+  width: 170px;
+}
+.memorias-five h2 input[type='text'] {
+  font-family: 'Bodoni', 'sans-serif';
+}
+.memorias-five label {
+  color: white;
+}
+.memorias-five .one > div:hover label {
+  display: block !important;
+}

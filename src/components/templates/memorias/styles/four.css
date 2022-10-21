@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Bacalisties';
+    src: url(../../../../fonts/Bacalisties.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Century';
+    src: url(../../../../fonts/GOTHIC.TTF) format('truetype');
+  }
+  @font-face {
+    font-family: 'CenturyBold';
+    src: url(../../../../fonts/GOTHICB.TTF) format('truetype');
+  }
+.memorias-four h1{
+    font-family: 'CenturyBold', 'sans-serif';
+}
+.memorias-four h1 input[type='text'] {
+    font-family: 'CenturyBold', 'sans-serif';
+    text-align: center;
+ 
+}
+.memorias-four h3{
+    font-family: 'Bacalisties', 'sans-serif';
+}
+.memorias-four h2{
+    font-family: 'Century', 'sans-serif';
+}
+.memorias-four h2 input[type='text'] {
+    font-family: 'Century', 'sans-serif';
+    text-align: center;
+    width: 200px;
+}
+.memorias-four h3 input[type='text'] {
+    font-family: 'Bacalisties', 'sans-serif';
+    text-align: center;
+    width: 200px;
+}
+.memorias-four .one > div:hover label {
+    display: block !important;
+    color:white;
+  }

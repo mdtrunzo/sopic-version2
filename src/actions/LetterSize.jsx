@@ -49,9 +49,17 @@ function LetterSize({ id, type }) {
       </div>
       {id && type === undefined && (
         <div className="letter-control">
-          <RemoveIcon id={id} onClick={(e) => decreaseFont(e.target.id)} className="remove"/>
+          <RemoveIcon
+            id={id}
+            onClick={(e) => decreaseFont(e.target.id)}
+            className="remove"
+          />
           {font && <p>{font}</p>}
-          <AddIcon id={id} onClick={(e) => increaseFont(e.target.id)} className="remove"/>
+          <AddIcon
+            id={id}
+            onClick={(e) => increaseFont(e.target.id)}
+            className="remove"
+          />
         </div>
       )}
     </>

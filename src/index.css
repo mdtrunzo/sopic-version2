@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @font-face {
   font-family: 'ApexNewLight';
   src: local('ApexNewLight'), url(./fonts/ApexNewLight.ttf) format('truetype');
@@ -77,7 +80,6 @@ body {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
   margin: 50px auto 50px;
 }
 .panel {
@@ -518,6 +520,9 @@ input[type='range']:focus::-moz-range-thumb {
   border-radius: 10px;
   z-index: 1000;
 }
+.login-modal form button {
+  background-color: #785aff;
+}
 form button {
   background-color: var(--button-secondary);
   color: white;
@@ -633,7 +638,32 @@ form img {
 .plantilla-single-show {
   height: 520px;
 }
-.k-pdf-export  {
+.k-pdf-export {
   border: 2px dashed transparent;
   padding: 1px;
+}
+.spinner {
+  width: 70px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.spinner-img {
+  margin-top: 150px;
+}
+.barra-sound {
+  position: relative;
+}
+.barra-sound::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 30px;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #9E9E9E;
 }

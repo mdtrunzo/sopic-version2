@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'BodoniBold';
+  src: url(../../../../fonts/BodoniBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ApexBold';
+  src: url(../../../../fonts/ApexNewBold.ttf) format('truetype');
+}
+.memorias-nine .kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.memorias-nine .kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.memorias-nine .ext p {
+  font-family: 'Bell', 'sans-serif';
+}
+.memorias-nine h3 {
+  font-family: 'Apex', 'sans-serif';
+}
+.memorias-nine h1 {
+  font-family: 'ApexBold', 'sans-serif';
+}
+.memorias-nine h2 {
+    font-family: 'BodoniBold', 'sans-serif';
+  }
+.memorias-nine .ext svg {
+  color: black;
+  font-size: 42px;
+}
+.memorias-nine .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.memorias-nine .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.memorias-nine h3 input[type='text'] {
+  font-family: 'Apex', 'sans-serif';
+  text-align: left;
+  width: 100px;
+}
+.memorias-nine h1 input[type='text'] {
+  font-family: 'ApexBold', 'sans-serif';
+  width: 300px;
+}
+.memorias-nine h2 input[type='text'] {
+    font-family: 'BodoniBold', 'sans-serif';
+    text-align: center;
+  }
+.memorias-nine label {
+  color: white;
+}
+.memorias-nine .one > div:hover label {
+  display: block !important;
+}

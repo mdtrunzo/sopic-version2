@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url(../../../../fonts/BodoniBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.collage-three .ext p {
+  font-family: 'Apex', 'sans-serif';
+}
+.collage-three h3 {
+  font-family: 'Century', 'sans-serif';
+}
+.collage-three h4 {
+  font-family: 'Bell', 'sans-serif';
+}
+.collage-three svg {
+  color: #9e9e9e;
+}
+.collage-three .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.collage-three .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.collage-three h3 input[type='text'] {
+  text-align: right;
+  width: 300px;
+}
+.collage-three h1{
+    font-family: 'Bodoni', 'serif';
+}
+.collage-three h1 input[type='text']{
+    font-family: 'Bodoni', 'serif';
+}
+.collage-three label {
+  color: white;
+}
+.collage-three .one div:hover label {
+  display: block !important;
+}

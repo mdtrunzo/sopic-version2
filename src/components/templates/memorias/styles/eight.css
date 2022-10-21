@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url(../../../../fonts/BodoniBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+.memorias-eight .kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.memorias-eight .kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.memorias-eight .ext p {
+  font-family: 'Bell', 'sans-serif';
+}
+.memorias-eight h3 {
+  font-family: 'Apex', 'sans-serif';
+}
+.memorias-eight h2 {
+  font-family: 'Bodoni', 'sans-serif';
+}
+.memorias-eight .ext svg {
+  color: black;
+  font-size: 42px;
+}
+.memorias-eight .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.memorias-eight .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.memorias-eight h3 input[type='text'] {
+  font-family: 'Apex', 'sans-serif';
+  text-align: center;
+  width: 80px;
+}
+.memorias-eight h2 input[type='text'] {
+  font-family: 'Bodoni', 'sans-serif';
+  text-align: center;
+}
+.memorias-eight label {
+  color: white;
+}
+.memorias-eight .one > div:hover label {
+  display: block !important;
+}

@@ -22,7 +22,9 @@ function HeaderUser() {
         </Link>
         <div className="nav">
           <ul>
-            <li>Mis Plantillas</li>
+            <Link to="/user-panel">
+              <li>Mis Plantillas</li>
+            </Link>
             <li>Mis Datos</li>
             <li>
               {' '}

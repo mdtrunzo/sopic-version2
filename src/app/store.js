@@ -5,6 +5,6 @@ import plantillaReducer from '../features/plantillas/plantillasSlice'
 export const store = configureStore({
   reducer: {
     auth: authReducer,
-    plantilla: plantillaReducer,
+    plantilla: plantillaReducer
   },
 })

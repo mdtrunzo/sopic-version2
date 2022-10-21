@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'ApexBold';
+  src: url(../../../../fonts/ApexNewBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bell';
+  src: url(../../../../fonts/BELL.TTF) format('truetype');
+}
+
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.collage-one h3,
+.collage-one .kids-uno p {
+  font-family: 'ApexBold', 'sans-serif';
+}
+.collage-one h4 {
+  font-family: 'Bell', 'sans-serif';
+}
+.collage-one svg {
+  color: #9e9e9e;
+}
+.collage-one .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.collage-one .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.collage-one .kids-uno h1 input[type='text'] {
+  text-align: center;
+  font-family: 'Bacalisties', 'serif';
+}
+.collage-one h3 input[type='text'] {
+  text-align: right;
+}
+.collage-one h4 input[type='text'] {
+  text-align: right;
+}
+.collage-one label {
+  color: white;
+}
+.collage-one .one > div:hover label {
+  display: block !important;
+}

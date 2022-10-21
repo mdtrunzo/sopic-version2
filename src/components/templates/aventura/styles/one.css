@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Apex';
+  src: url(../../../../fonts/ApexNewLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bacalisties';
+  src: url(../../../../fonts/Bacalisties.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bodoni';
+  src: url(../../../../fonts/BodoniBook.ttf) format('truetype');
+}
+
+.kids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.kids-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.aventura-one h4 {
+  font-family: 'Apex', 'sans-serif';
+}
+.aventura-one svg {
+  color: #9e9e9e;
+}
+.aventura-one .ext svg:nth-child(3) {
+  font-size: 60px !important;
+}
+.aventura-one .header-img {
+  height: 33% !important;
+  height: 7rem;
+}
+.aventura-one h1 {
+  text-align: center;
+  font-family: 'Bodoni', 'serif';
+}
+.aventura-one h1 input[type='text'] {
+  text-align: center;
+  font-family: 'Bodoni', 'serif';
+}
+.aventura-one h3{
+    font-family: 'Bacalisties', 'sans-serif';
+}
+.aventura-one h3 input[type='text'] {
+  font-family: 'Bacalisties', 'sans-serif';
+  text-align: center;
+}
+.aventura-one label {
+  color: white;
+}
+.aventura-one .one > div:hover label {
+  display: block !important;
+}

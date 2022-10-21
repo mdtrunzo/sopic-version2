@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "subtitle": "HOLA MUNDO! SOY",
+    "title": "Martina",
+    "text1": "LLEGUE EL DÍA",
+    "text2": "26 ENERO 2021",
+    "text3": "20:05 HS",
+    "text4": "46CM",
+    "text5": "3 KILOS"
+  },
+  {
+    "id": 2,
+    "title": "Mateo",
+    "subtitle": "ORIGEN HEBREO, SIGNIFICA RELADO DE DIOS",
+    "text": "Listo, enérgico y muy cariñoso. Tan alegre y feliz que contagia a todas las personas a su alrededor",
+    "letra": "M"
+  },
+  {
+    "id": 3,
+    "title": "Valentina",
+    "subtitle": "BLANCO",
+    "text": "08 - 04 - 21"
+  },
+  {
+    "id": 4,
+    "title": "Sofía",
+    "subtitle": "Gracias por ser mi mamá.",
+    "text": "Una madre es capaz de dar todo sin recibir nada. De querer con todo su corazón sin esperar nada a cambio. De invertir todo en un proyecto sin medir la rentabilidad que le aporte su inversión. Una madre sigue teniendo confianza en sus hijos cuando todos los demás lo han perdido."
+  },
+  {
+    "id": 5,
+    "title": "CANCIÓN DE CUNA",
+    "subtitle": "LOS PIOJOS"
+  },
+  {
+    "id": 6,
+    "title": "TENEMOS AL MEJOR",
+    "subtitle": "Gracias pa!"
+  },
+  {
+    "id": 7,
+    "title": "Los pequeños momentos que pasamos en familia, se convertirán mañana en preciosos recuerdos",
+    "subtitle": "Gracias por ser nuestro papá."
+  },
+  {
+    "id": 8,
+    "title": "Papá",
+    "subtitle": "Agradezco todos los días de mi vida el poder tener un padre tan increíble como vos."
+  },
+  {
+    "id": 9,
+    "title": "EL ÚNICO SUPERHÉROE DE VERDAD.",
+    "subtitle": "gracias papá."
+  },
+  {
+    "id": 10,
+    "title": "En esta casa somos nosotros mismos, agradecemos, cometemos errores, nos perdonamos, nos divertimos, nos damos abrazos y, sobre todo...",
+    "subtitle": "nos amamos."
+  },
+  {
+    "id": 11,
+    "title": "NEW YORK",
+    "subtitle": "nuestro primer viaje",
+    "text": "22 ENERO 2021"
+  },
+  {
+    "id": 12,
+    "title": "NUESTRO LUGAR EN EL MUNDO",
+    "subtitle": "Juntos Siempre"
+  },
+  {
+    "id": 13,
+    "title": "VIAJAR",
+    "subtitle": "ES ENAMORARSE A CADA PASO."
+  },
+  {
+    "id": 14,
+    "title": "LA VIDA ES UN VIAJE NO UN DESTINO"
+  },
+  {
+    "id": 15,
+    "title": "VOS Y YO",
+    "subtitle": "hay una sola forma de felicidad en la vida: amar y ser amado",
+    "text1": "#hashtag",
+    "text2": "#loremipsum"
+  },
+  {
+    "id": 16,
+    "text1": "familia",
+    "text2": "DONDE LA VIDA COMIENZA",
+    "text3": "Y EL",
+    "text4": "amor",
+    "text5": "NUNCA TERMINE"
+  },
+  {
+    "id": 17,
+    "title": "FAMILIA",
+    "text1": "UN POCO POCA",
+    "text2": "UN POCO RUIDOSA",
+    "text3": "PERO MUY AMOROSA."
+  },
+  {
+    "id": 18,
+    "text1": "Welcome",
+    "text2": "little one",
+    "text3": "family",
+    "text4": "MA",
+    "text5": "MÁ",
+    "text6": "PA",
+    "text7": "PÁ",
+    "text8": "love"
+  },
+  {
+    "id": 19,
+    "title": "M & F",
+    "subtitle": "THE BEST MEMORIES OF",
+    "text": "nuestra boda"
+  },
+  {
+    "id": 20,
+    "title": "A MAGICALLY WONDERFUL",
+    "text1": "DAY IN",
+    "text2": "OUR LIFE",
+    "text3": "23 DE SEPTIEMBRE DE 2022"
+  },
+  {
+    "id": 21,
+    "title": "friends",
+    "subtitle": "THEY ARE BROTHERS WHO GIVES THEM LIFE"
+  },
+  {
+    "id": 22,
+    "letra1": "L",
+    "letra2": "O",
+    "letra3": "V",
+    "letra4": "E",
+    "title": "DIEGO & CAMILA",
+    "subtitle": "22.05.08"
+  },
+  {
+    "id": 23,
+    "title": "LOVE + JOY + PEACE",
+    "subtitle": "FAMILIA",
+    "fecha": "2018"
+  },
+  {
+    "id": 24,
+    "title": "NUESTRO AÑO JUNTOS",
+    "subtitle": "THANKS",
+    "text1": "VERANO",
+    "text2": "OTOÑO",
+    "text3": "INVIERNO",
+    "text4": "PRIMAVERA"
+  },
+  {
+    "id": 25,
+    "title": "felicidades",
+    "subtitle": "Licenciada.",
+    "text1": "HAS CONQUISTADO UNA META.",
+    "text2": "AHORA CONQUISTA TUS SUEÑOS."
+  }
+]

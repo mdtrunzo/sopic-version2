@@ -5,6 +5,7 @@ import Header from './components/Header'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import UserPanel from './pages/UserPanel'
 import Plantilla from './components/userpanel/Plantilla'
+import AdminPanel from './pages/AdminPanel'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/user-panel" element={<UserPanel />} />
           <Route path="/plantilla/:id" element={<Plantilla />} />
+          <Route path="/admin-panel" element={<AdminPanel />} />
         </Routes>
       </Router>
       <ToastContainer />
